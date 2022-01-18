@@ -13,6 +13,7 @@
   },
   "files": [],
   "references": [
+    { "path": "./packages/alaya/tsconfig.build.json" },
     { "path": "./packages/typechain/tsconfig.build.json" },
     { "path": "./packages/test-utils/tsconfig.build.json" },
     { "path": "./packages/target-web3-v1/tsconfig.build.json" },
