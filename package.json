@@ -16,7 +16,7 @@
     ]
   },
   "scripts": {
-    "postinstall": "yarn build",
+    "postinstall": "npm run build",
     "format": "prettier --check \"./**/*.ts\" README.md",
     "format:fix": "prettier --write \"./**/*.ts\" README.md",
     "lint": "wsrun -c lint",
